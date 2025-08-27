@@ -1,0 +1,53 @@
+.jobTitle {
+  font-size: 20px;
+  /* color: #00ff0e; */
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 35px;
+  line-height: 56px;
+  margin-top: 0;
+  font-weight: 600;
+  font-style: normal;
+  /* color: #FFFFFF; */
+  /* text-align: center; */
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 15px;
+  /* color: #d5d5d5; */
+  margin: 0 0 10px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.75em;
+}
+
+.button {
+  background-color: #424242;
+  padding: 8px 28px;
+  border-radius: 30px;
+  border: solid #00ff0e 2px;
+  /* border: solid 3px #267200; */
+  font-size: 15px;
+}
+
+.buttonBasic {
+  background-color: #424242;
+  padding: 5px 30px;
+  border-radius: 30px;
+  font-size: 14px;
+  border: solid 1px #6c6c6c;
+}
+
+.image {
+  border-radius: 10px;
+}
+
+.projectContainer {
+  /* border: solid 1px #333333; */
+  padding: 10px;
+  border-radius: 5px;
+}
