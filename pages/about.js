@@ -64,8 +64,27 @@ export default function Page() {
         <div className="bg4">
           <div className="w-full max-w-screen-lg mx-auto">
             <div className="pt-[40px] pb-[30px] px-4 lg:px-0">
-              <p className={`${styles.description} font1`}>
-                {sitedetails.about}
+              <p className={`${styles.descriptionV2} font1`}>
+                Hi, my name is Nico Lumibao, and I’m a Software Developer and
+                former Software Development Team Lead with a strong focus on
+                building scalable, efficient, and user-centered web
+                applications. I specialize in React, Next.js, Vue.js, Node.js,
+                Laravel, and Tailwind CSS, delivering high-quality frontend and
+                backend solutions.
+              </p>
+              <p className={`${styles.descriptionV2} font1`}>
+                I have solid experience across the software development
+                lifecycle, from system design and coding to deployment and
+                optimization. I take pride in writing clean, maintainable, and
+                well-structured code while adhering to best practices and modern
+                development standards.
+              </p>
+              <p className={`${styles.descriptionV2} font1`}>
+                My background includes developing RESTful APIs, integrating
+                cloud-based services, and deploying applications through AWS,
+                Vercel, and Cloudflare. I’m passionate about continuous learning
+                and using technology to create impactful, reliable, and scalable
+                software solutions.
               </p>
             </div>
           </div>
@@ -73,7 +92,7 @@ export default function Page() {
 
         <div className="w-full max-w-screen-lg mx-auto font1 px-4 lg:px-0">
           <div
-            className={`grid sm:grid-cols-2 gap-4 pt-[40px] pb-[40px] text-sm`}
+            className={`grid sm:grid-cols-2 gap-4 pt-[40px] pb-[40px] text-xs`}
           >
             <div className="flex">
               <div className="font-semibold">Nationality:</div>
@@ -97,7 +116,7 @@ export default function Page() {
 
             <div className="flex">
               <div className="font-semibold">Age:</div>
-              <div className="ml-[15px]">29</div>
+              <div className="ml-[15px]">31</div>
             </div>
 
             <div className="flex">
